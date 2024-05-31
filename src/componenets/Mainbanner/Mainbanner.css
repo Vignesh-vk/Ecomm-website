@@ -1,0 +1,36 @@
+.homepage-banner-slick{
+    
+
+    
+}
+
+.Mainbanner-home-page{
+position: relative;
+    
+}
+.Banner {
+    display: flex;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.Banner img{
+    width: 100%;
+    height: 690px;
+    position: relative;
+    /* z-index:  !important; */
+
+}
+
+@media (max-width : 430px) {
+    .Banner img{
+        width: 390px;
+        height: 270px;
+        background-size: cover;
+    }
+    
+}
+
+

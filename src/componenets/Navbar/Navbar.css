@@ -1,0 +1,478 @@
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+}
+.upper-Navbar {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media (max-width : 430px){
+  .Navbar {
+    display: none;
+  }
+  
+}
+.upper-Navbar h2 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.second-ul-list {
+  display: flex;
+  background: wheat;
+  color: #000;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+.customercare-mail-id {
+  margin-left: 60px;
+  align-items: center;
+}
+.customercare-mail-id h6 {
+  font-weight: 500;
+}
+
+.ccnumber {
+  margin-left: 70px;
+}
+
+.tract-order {
+  margin-left: 350px;
+  padding-bottom: 6px;
+}
+.wishlist-icon {
+  margin-left: 70px;
+  padding-bottom: 6px;
+}
+.help {
+  margin-left: 70px;
+  padding-bottom: 6px;
+}
+
+.main-navbar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: rgb(245, 237, 220);
+  height: 80px;
+  position: sticky;
+  width: 100%;
+}
+
+.Textcolor {
+  color: rgba(118, 125, 11, 0.801) !important;
+}
+.text-logo {
+  padding-left: 60px;
+}
+.text-logo h2 {
+  font-weight: 900;
+  font-size: 25px;
+  position: relative;
+}
+.text-logo hr {
+  width: 100px;
+  margin-left: 5px;
+  border: 1.5px solid;
+  background-color: black;
+  position: absolute;
+  top: 30px;
+}
+.text-logo h4 {
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+}
+.search-bar {
+  margin-left: 80px;
+  position: relative;
+  width: 300px;
+  left: 0px;
+}
+
+.search-bar input {
+  border: 1px solid black;
+  background: transparent;
+  border-radius: 5px;
+  position: relative;
+  width: 300px;
+ 
+  line-height: 30px;
+}
+.search-bar input::placeholder {
+  padding-left: 10px;
+}
+
+.Menu-items {
+  display: flex;
+  padding: 15px 10px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.menu-list {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 17px 10px;
+  /* z-index: 100; */
+  cursor: pointer;
+  position: relative;
+}
+.menu-list:hover {
+  color: rgba(0, 0, 0, 0.687);
+}
+.menu-list::after {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.79);
+  height: 4px;
+  width: 0;
+  left: 0;
+  bottom: -1px;
+  transition: 0.3s ease-in-out;
+}
+.menu-list:hover:after {
+  width: 100%;
+}
+
+.user-login {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  padding-left: 50px;
+}
+.profile-logo {
+  padding-left: 20px;
+  width: 50px;
+}
+
+.cart-logo {
+  padding-left: 20px;
+  width: 50px;
+}
+
+.dropdown-menu-list {
+  text-decoration: none;
+  width: 150px;
+  position: absolute;
+  top: 58px;
+
+  padding: 4px 30px;
+  list-style: none;
+  background: rgb(245, 237, 220);
+  color: black;
+  text-align: start;
+  z-index: 2 !important;
+}
+.dropdown-menu-list li {
+  margin: 0px 10px;
+  padding-top: 19px;
+}
+.dropdown-men-list2 {
+  text-decoration: none;
+  width: 200px;
+  position: absolute;
+  top: 37px;
+  padding: 20px 30px;
+  list-style: none;
+  background-color: black;
+  color: white;
+  text-align: start;
+}
+
+.login-heading {
+  margin-top: 0px;
+}
+
+.login-heading h5 {
+  font-weight: 600;
+  margin-left: 30px;
+
+  font-family: "Roboto", sans-serif;
+}
+.login-heading p {
+  padding-left: 129px;
+  margin: 10px -100px;
+}
+
+.loginpopup {
+  height: 480px;
+  display: flex;
+  position: relative;
+}
+.login-banner-img img {
+  width: 355px;
+  height: 518px;
+  margin: -22px -15.9px;
+  /* border-radius: 5px; */
+}
+
+.login-details input {
+  margin: 10px;
+  margin-left: 30px;
+  position: relative;
+  width: 350px;
+}
+.login-details .Hideshowbtn {
+  position: absolute;
+  top: 157px;
+  left: 660px;
+  background: none;
+  outline: none;
+  border: none;
+}
+.forget-password {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 1px 30px;
+}
+.login-otp {
+  padding-left: 70px;
+}
+
+.login-button {
+  margin-left: 25px;
+  padding: 10px 10px;
+}
+.login-button button {
+  padding: 4px 80px;
+  width: 340px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.Signup-link {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+  justify-content: center;
+}
+.Signup-link p {
+  font-family: "Roboto", sans-serif;
+}
+.Signup-link .Registration-link {
+  color: orange;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+.login-hr-line {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.login-google-links {
+  margin-left: 100px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* signup form modal */
+
+.register-heading {
+  margin-top: 0px;
+}
+
+.register-heading h5 {
+  font-weight: 600;
+  margin-left: 30px;
+
+  font-family: "Roboto", sans-serif;
+}
+.register-heading p {
+  padding-left: 129px;
+  margin: 10px -100px;
+}
+
+.registerpopup {
+  height: 450px;
+  display: flex;
+  position: relative;
+}
+.register-banner-img img {
+  width: 355px;
+  height: 518px;
+  margin: -22px -15.9px;
+  /* border-radius: 5px; */
+}
+
+.register-details input {
+  margin: 10px;
+  margin-left: 30px;
+  position: relative;
+  width: 350px;
+}
+.register-details .Hideshowbtn {
+  position: absolute;
+  top: 157px;
+  left: 660px;
+  background: none;
+  outline: none;
+  border: none;
+}
+.forget-password {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 1px 30px;
+}
+.register-otp {
+  padding-left: 70px;
+}
+
+.register-button {
+  margin-left: 25px;
+  padding: 10px 10px;
+}
+.register-button button {
+  padding: 4px 80px;
+  width: 340px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.Signup-link {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+  justify-content: center;
+}
+.Signup-link p {
+  font-family: "Roboto", sans-serif;
+}
+.Signup-link .Registration-link {
+  color: orange;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+.signup-hr-line {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.signup-google-links {
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.menulist {
+  position: absolute;
+}
+li {
+  list-style: none;
+}
+
+#Submenu {
+  left: -2px;
+
+  opacity: 0;
+  position: absolute;
+  top: 10px;
+  visibility: hidden;
+  z-index: 100000;
+  transition: 0.3 s;
+}
+#Submenu li {
+  margin: 0px 20px;
+  margin-left: -30px;
+  padding-top: 16px;
+}
+
+ul li:hover ul #Submenu {
+  opacity: 1;
+  visibility: visible;
+  top: 58px;
+  background: rgb(245, 237, 220);
+  color: black;
+  width: 150px;
+  height: auto;
+  transition: 0.3 s;
+}
+#Submenu li a {
+  list-style: none;
+  text-decoration: none;
+}
+.search-list {
+  padding: 0px 0px;
+  gap: 0;
+  position: absolute;
+  top: 35px;
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 300px;
+  left: px;
+  z-index: 100;
+  transition: 0.3s ease-in-out;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(225,225,223,.8392156862745098) transparent;;
+  
+}
+.search-data-list {
+  padding: 1px 0px;
+  margin: 5px 0px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  cursor: pointer;
+  width: 300px;
+  z-index: 100;
+  font-size: 15px;
+  margin-left: 40px;
+  /* /* align-items: start; */
+  /* display: flex; */
+  justify-content: start;
+}
+.list-data-main-div {
+  margin-left: -49px;
+  align-items: start;
+  justify-content: start;
+  padding: 0px 10px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.menulist-sub-category {
+  text-decoration: none;
+  color: black;
+}
+
+.closesearch-dropdown {
+  position: absolute;
+  width: 10px;
+  background: rgba(0, 0, 0, 0.443);
+  border-radius: 50%;
+  margin: 5px 5px;
+  padding: 0px 10px;
+  top: 0px;
+  left: 270px;
+  /* margin-left: 200px; */
+  cursor: pointer;
+}

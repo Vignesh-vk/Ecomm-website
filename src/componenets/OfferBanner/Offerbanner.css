@@ -1,0 +1,17 @@
+
+
+ .exclusive-offer-banner{
+    width: 100%;
+    margin-top: 50px;
+    
+    
+    
+}
+.exclusive-offer-banner img{
+    cursor: pointer;
+    width: 100%;
+    height: 410px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} 

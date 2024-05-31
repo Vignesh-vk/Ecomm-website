@@ -1,0 +1,46 @@
+
+.mycart-header-name{
+    text-align: center;
+    margin-top: 50px;
+}
+.cart-details{
+    display: flex;
+    box-shadow: 1px 2px 10px 1px;
+    width: 40%;
+    height: 20%;
+    padding: 30px 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    gap: 20px;
+}
+.cart-product-image img{
+    width: 150px ;
+    height:150px;
+}
+
+.cartpage-price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.save-and-delete{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.cart-product-price-details{
+    box-shadow: 1px 2px 10px 1px;
+    width: 40%;
+    height: 20%;
+    padding: 30px 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    gap: 20px;
+}
+.cart-inner-data{
+    display: flex;
+}

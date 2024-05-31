@@ -1,0 +1,131 @@
+.filter-home-page-category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-home-page-title {
+  display: flex;
+}
+
+.filter-home-page-title h1 {
+  margin-left: 40px;
+  margin-top: 30px;
+  font-size: 60px;
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.filter-home-page-title p {
+  margin-top: 100px;
+  margin-left: -30px;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+.filter-home-page-title h3 {
+  margin-top: 60px;
+  left: 65px;
+  position: absolute;
+  font-family: serif;
+}
+.category-list {
+  display: flex;
+  gap: 30px;
+  margin-right: 70px;
+  margin-top: 50px;
+}
+
+.Category-filter-list {
+  list-style: none;
+}
+
+.category-filter-btn {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 700;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s ease-in-out;
+  padding: 4px 12px;
+  background: black;
+  border-radius: 25px;
+  color: white;
+}
+.category-filter-btn:hover {
+  color: black;
+  background: wheat;
+  border-radius: 25px;
+  padding: 4px 12px;
+}
+
+.hr-line {
+  height: 3px;
+  border: 2px solid black;
+  width: 94%;
+  margin-left: 40px;
+  margin-top: -10px;
+}
+
+.filter-home-page-products {
+  cursor: pointer;
+}
+.category-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.filter-products-images img {
+  width: 200px;
+  transition: 0.4s;
+}
+
+.filter-products-images img:hover {
+  transform :scale(1.1)
+}
+
+.filter-products-names {
+  width: 200px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.filter-products-prices {
+  display: flex;
+  padding-top: 10px;
+}
+.filter-products-main-div {
+  box-shadow: 1px 1px 3px 1px;
+  padding: 8px 10px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+
+.fiter-product-load-more-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fiter-product-load-more-button button{
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 300px;
+  padding: 5px 10px;
+  border: none;
+  transition: 0.3s;
+  
+}
+
+.fiter-product-load-more-button button:hover{
+  background: wheat;
+  color: black;
+  border: none;
+  border-radius: 200px;
+  padding: 5px 10px;
+}
+
+

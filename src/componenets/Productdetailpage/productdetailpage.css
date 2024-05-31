@@ -1,0 +1,397 @@
+.product-detail-page {
+  margin-top: -20px;
+  position: relative;
+  
+  
+}
+.full-page-detail{
+  position: relative;
+  
+}
+
+.breadcrumbs {
+  position: sticky;
+  top: -35px;
+  padding-top: 40px;
+}
+.breadcrumbs a {
+  background-color: white;
+ margin-left: 40px;
+ 
+}
+
+.breadcrumbs a::after {
+  content: " >";
+}
+
+.full-Product-detail-page{
+  margin: 20px 40px;
+  position: relative;
+ 
+
+
+  
+}
+
+.Products-image-image {
+  display: flex;
+  gap: 30px;
+  position: sticky;
+    top: 39px;
+
+}
+.Products-image-image img {
+  width: 440px;
+  height: 500px;
+  z-index: -19;
+}
+.product-detail-page-image-position {
+  display: flex;
+  margin: 0px -6px;
+  
+}
+.leftimagessticky{
+  position: sticky;
+}
+.productdetail-image {
+  /* margin-right: 10px; */
+  width: 90px;
+  cursor: pointer;
+  gap: 0px;
+  height: 115px;
+  margin-top: -7px;
+}
+.productdetail-image img {
+  width: 90px;
+  height: 115px;
+  margin: 7px 0px;
+}
+.product-detail-pageright {
+  margin-left: 40px;
+}
+
+@media (max-width:430px){
+  .product-detail-page-image-position  {
+      display: flex;
+     
+      /* width: 100%; */
+      width: auto;
+      flex-wrap: wrap;
+       /* width: 100%; */
+       /* padding-left: 130px; */
+      gap: 200px;
+      /* justify-content: center; */
+      align-items: center
+  };
+
+  .Products-image-image img{
+        margin-left: 150px;
+        width: 200px;
+        height: 300px;
+        
+  }
+  
+
+  .productdetail-image img{
+    width: 80px;
+    /* margin-top: 100px; */
+    
+  }
+
+   .small-short-images{
+    margin-left: -20px;
+    margin-top: 100px;
+    position: absolute;
+    top: 450px;
+    left: 0px;
+    gap: 40px;
+  }
+  .small-short-images img{
+    margin-left: 30px;
+  }
+
+
+  .product-detail-name-data{
+    margin-left: -50px;
+  }
+
+  .product-detail-name-data h3{
+   font-size: 40px;
+  }
+  .product-detail-page-wishlist{
+    font-size: 22px;
+  }
+
+  .product-prices-prices h4{
+    font-size: 30px;
+  }
+
+  .productdetail-page-offer{
+    font-size: 18px;
+  }
+
+  .product-sizes{
+    font-size: 23px;
+  }
+  .addtocart-buynow-btn{
+    /* gap: 10px;
+    width: 100px; */
+  }
+  .addtocart-btn button{
+     width: 220px;
+     height: 60px;
+  }
+  .buynow-btn button{
+
+    width: 220px;
+    height: 60px;
+   
+
+  }
+  .delivery-check p{
+    width: 430px;
+  }
+  .accordion-item{
+    width: 400px;
+  }
+  .product-detail-page-description{
+   /* margin: 10px 10px; */
+  }
+
+  .product-detail-pageright{
+    width: 420px;
+    margin-left: 50px;
+  }
+
+  .coupan-banner img {
+     width: 380px;
+     height: 10px;
+  }
+
+  .Products-you-may-like{
+    padding-left: 100px;
+  }
+  
+}
+
+.product-detail-name-data {
+  font-family: "Roboto", sans-serif;
+  margin-right: 80px;
+}
+.product-detail-page-wishlist {
+  gap: 13px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.product-detailpage-prices {
+  margin-top: 20px;
+}
+
+.product-prices-prices {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+.product-prices-prices h6 {
+  text-decoration: line-through;
+  font-family: "Roboto", sans-serif;
+}
+
+.product-prices-prices p {
+  color: rgba(255, 0, 0, 0.664);
+  padding-top: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.coupan-banner {
+ 
+}
+
+.coupan-banner img {
+  
+  height: 15px;
+}
+
+.productdetail-page-offer {
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.product-size h6 {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+
+.product-sizes button {
+  margin: 10px 5px;
+  padding: 5px 20px;
+  border-radius: 5px;
+
+  outline: none;
+  border: none;
+  transition: 0.5s;
+}
+
+.product-sizes button:hover {
+  background-color: wheat;
+  color: black;
+}
+
+.add-quantity-name {
+  margin-top: 10px;
+}
+
+.add-quantity-name h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.add-quantity-buttons button {
+  padding: 4px 10px;
+  background: rgba(0, 0, 0, 0.733);
+  color: white;
+  border-radius: 2px;
+
+  outline: none;
+  border: none;
+  transition: 0.5s;
+}
+.add-quantity-buttons button:hover {
+  background-color: rgba(245, 222, 179, 0.797);
+  color: black;
+}
+.add-quantity-buttons {
+  margin-top: 20px;
+}
+.add-quantity-buttons input {
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.warranty-product h6 {
+  padding-top: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.addtocart-buynow-btn {
+  margin-top: 30px;
+  display: flex;
+  gap: 12px;
+}
+
+.addtocart-btn button {
+  padding: 10px 45px;
+  background-color: black;
+  color: white;
+  display: flex;
+  transition: 0.3s;
+  border: none;
+  font-weight: 800;
+  gap: 10px;
+  align-items: center;
+}
+
+.addtocart-btn button:hover {
+  background-color: rgba(245, 222, 179, 0.797);
+  color: black;
+}
+
+.buynow-btn button {
+  padding: 10px 70px;
+  font-weight: 800;
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+  border: none;
+}
+
+.buynow-btn button:hover {
+  background-color: rgba(245, 222, 179, 0.797);
+  color: black;
+}
+.delivery-check {
+  margin-top: 30px;
+}
+.delivery-check h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+}
+.delivery-check .delivery-icon {
+  font-size: 25px;
+  color: orange;
+}
+.delivery-check p {
+  margin-top: 10px;
+}
+
+.product-deatil-page-summary {
+  margin-top: 40px;
+}
+.product-deatil-page-summary h4 {
+  box-shadow: 0px 0px 1px;
+  padding: 5px 10px;
+  width: 95%;
+}
+
+.product-detail-page-description {
+  margin-top: 40px;
+}
+
+
+.Accordion.Header::after {
+  display: none;
+}
+
+.Products-you-may-like{
+  margin-left: 10px;
+  margin-top: 70px;
+}
+.main-div-you-may-like{
+  margin-left: 20px;
+}
+.productyoumaylike{
+  padding: 20px 13px;
+  width: 240px;
+}
+.productyoumaylike img{
+   width: 200px;
+}
+.productyoumaylike p{
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2;
+   overflow: hidden;
+
+
+}
+
+.product-you-may-like-prices{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.product-you-may-like-prices h6{
+  text-decoration: line-through;
+}
+.youmaylike-row{
+  display: flex;
+  gap: -10px;
+  flex-wrap: wrap;
+  /* padding: 10px 10px; */
+  margin: 20px 10px;
+}
+
+.product-you-make-likeinner-div{
+  box-shadow: 1px 2px 4px 1px;
+  width: 220px;
+  height: 350px;
+  padding: 10px 10px;
+
+}
+.product-you-may-like-prices p{
+  color: red;
+}

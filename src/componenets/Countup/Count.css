@@ -1,0 +1,69 @@
+.Countup-number{
+    font-family: "Roboto", sans-serif;
+    background: rgba(255, 255, 255, 0.61);
+position: relative;
+   
+   
+}
+.ourservice .h2{
+    font-weight: bolder;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    position: relative;
+}
+.ourservice .h2::after{
+    content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.79);
+  height: 4px;
+  width: 0px;
+  left: 100;
+  top: 60px;
+  transition: 0.3s ease-in-out;
+}
+.ourservice .h2:hover:after{
+    width: 100px;
+
+}
+
+.countup-detail-delivery{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 130px;
+    margin-left: 50px;
+}
+
+.brand-logo1{
+    font-size: 35px;
+    color: rgb(224, 157, 64);
+    margin-left: 30px;
+    
+}
+
+
+.happy-customer-count-up span{
+    font-size: 25px;
+    color: rgba(9, 51, 240, 0.692);
+    margin-left: -20px;
+    
+}
+.happy-customer-count-up .Countvalue{
+    color:black;
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 10px;
+    padding: 0px 20px;
+
+}
+
+.happy-customer-count-up h6{
+    font-size: 22px;
+    font-family: 'Roboto';
+    padding: 0px 20px;
+
+   
+}
+
