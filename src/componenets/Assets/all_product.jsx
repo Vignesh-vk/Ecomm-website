@@ -44,23 +44,11 @@ import p46_img from "./product_46.avif";
 import p47_img from "./product_47.avif";
 import p48_img from "./product_48.avif";
 import p49_img from "./product_49.avif";
-import p50_img from "./product_50.avif";
-// import p51_img from "./product_51.avif";
-// import p52_img from "./product_52.avif";
 
 import pd2_imges_2 from "./p1_product.png";
 import pd2_imges_3 from "./p3_product.png";
 import pd2_imges_4 from "./p4_product.png";
 import pd2_imges_5 from "./product_8.png";
-
-// import pd2_imges_4 from "./p1_Product_i3.png";
-
-
-
-
-
-
-
 
 let all_product = [
   {
